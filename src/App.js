@@ -32,8 +32,7 @@ function App() {
     }
 
     try {
-      const response = await fetch(
-        "http://localhost:8080/api/users/login",
+      const response = await fetch("http://localhost:8080/api/users/login", 
         {
           method: "POST",
           headers: {
@@ -87,7 +86,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/users/register",
+        "https://smartnotes-backend-6sas.onrender.com",
         {
           method: "POST",
           headers: {
@@ -545,3 +544,4 @@ function App() {
 }
 
 export default App;
+http://localhost:8080
